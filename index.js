@@ -15,7 +15,7 @@
     client = new Client();
 
     // registering remote methods
-    client.registerMethod("xmlMethod", "http://open.api.sandbox.ebay.com/shopping?", "POST");
+    client.registerMethod("xmlMethod", "http://svcs.ebay.com/services/search/FindingService/v1", "POST");
 
     var args = {
         headers : {
