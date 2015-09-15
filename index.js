@@ -19,11 +19,7 @@
 
     var args = {
         headers : {
-            "X-EBAY-API-APP-ID":"ELTSyste-e778-4948-b2a0-7e2ba87d42e2",
-            "X-EBAY-API-VERSION":885,
-            "X-EBAY-API-SITE-ID":0,
-            "X-EBAY-API-CALL-NAME":"GetShippingCosts",
-            "X-EBAY-API-REQUEST-ENCODING":"XML"
+        
         },
         data : ''
     };
@@ -33,10 +29,16 @@
     exports.call = function(callName, jsonObj, callback){        
 
         // args.headers["X-EBAY-API-CALL-NAME"] = callName;
+        jsonObj["callname"] = callName;
+        jsonObj["responseencoding"] = = "XML";
+        jsonObj["appid"] = "ELTSyste-e778-4948-b2a0-7e2ba87d42e2";
+        jsonObj["version"] = "713";
+        jsonObj["IncludeDetails"] = "true";
+
         args.data = buildXmlData(callName, jsonObj);
 
         client.methods.xmlMethod(args, function(data,response){
-
+            console.log(data);
             xml2js.parseString(data, function(err, result){
                 callback(result);
             });
