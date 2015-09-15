@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bogdanlungu/node-finding-ebay-api"
+    "url": "https://github.com/bugz313/ebay-finding-api"
   },
   "keywords": [
     "api",
@@ -20,9 +20,9 @@
   },
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/bogdanlungu/node-finding-ebay-api/issues"
+    "url": "https://github.com/bugz313/ebay-finding-api/issues"
   },
-  "homepage": "https://github.com/bogdanlungu/node-finding-ebay-api",
+  "homepage": "https://github.com/bugz313/ebay-finding-api",
   "devDependencies": {},
   "dependencies": {
     "node-rest-client": "~1.4.1",
@@ -31,7 +31,7 @@
   "readme": "node-ebay-finding-api\n=====================\n\nnode.js npm module for eBay Finding API\n\n## Functions\n- Set user token\n- Make API Call\n- Test",
   "readmeFilename": "README.md",
   "_id": "node-ebay-finding-api@1.0.1",
-  "_shasum": "6d96dd4c27c41c2bfd84665a5e2974cc88f1f123",
-  "_resolved": "https://github.com/bogdanlungu/node-finding-ebay-api/archive/99d89e8d92df1e27edee74d164d0ade870bf654a.tar.gz",
-  "_from": "https://github.com/bogdanlungu/node-finding-ebay-api/archive/99d89e8d92df1e27edee74d164d0ade870bf654a.tar.gz"
+  "_shasum": "3909b434e0c9739d631e9c54863733ccbb620e6a",
+  "_resolved": "https://github.com/bugz313/finding-ebay-api/archive/3909b434e0c9739d631e9c54863733ccbb620e6a.tar.gz",
+  "_from": "https://github.com/bugz313/finding-ebay-api/archive/3909b434e0c9739d631e9c54863733ccbb620e6a.tar.gz"
 }
