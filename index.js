@@ -15,15 +15,15 @@
     client = new Client();
 
     // registering remote methods
-    client.registerMethod("xmlMethod", "http://svcs.ebay.com/services/search/FindingService/v1", "POST");
+    client.registerMethod("xmlMethod", "http://open.api.sandbox.ebay.com/shopping?", "GET");
 
     var args = {
         headers : {
-            "X-EBAY-API-APP-ID" : "ELTSyste-e778-4948-b2a0-7e2ba87d42e2",
-            "X-EBAY-API-VERSION":935,
+            "X-EBAY-API-APP-ID":"ELTSyste-e778-4948-b2a0-7e2ba87d42e2",
+            "X-EBAY-API-VERSION":885,
             "X-EBAY-API-SITE-ID":0,
-            "X-EBAY-API-CALL-NAME":"GetShippingCosts",
-            "Content-Type" : "text/xml"
+            "X-EBAY-API-CALL-NAME:GetShippingCosts",
+            "X-EBAY-API-REQUEST-ENCODING":"XML"
         },
         data : ''
     };
