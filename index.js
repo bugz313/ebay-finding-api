@@ -20,6 +20,7 @@
     var args = {
         headers : {
             "X-EBAY-API-APP-ID" : "ELTSyste-e778-4948-b2a0-7e2ba87d42e2",
+            "X-EBAY-API-COMPATIBILITY-LEVEL" : "935",
             "X-EBAY-API-VERSION":"935",
             "X-EBAY-API-SITE-ID":"0",
             "X-EBAY-API-CALL-NAME":"GetShippingCosts",
